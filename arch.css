@@ -4,7 +4,34 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
 
+.life{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ccu{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #7861F3, #533DD0, #331CB2);
+    margin-right: 20px;
+}
+
+
+.roguetext{
+    color: white;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
 nav{
     position: fixed;
     z-index: 10;
@@ -44,6 +71,111 @@ nav .links a{
 }
 
 
+
+
+#nav-toggle{
+    position: absolute;
+}
+nav .icon-burger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav .icon-burger .line{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.check{
+    display: none;
+}
+
+
+@media screen and (max-width:768px){
+    /* nav{
+        /* background-color: rgba(0,0,0,.008); */
+        /* background-color: black;
+        height: 40px;
+        width: 45px;
+    } */ */
+
+    nav .links a{
+      display:block;
+      padding: 15px;
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      border: none;
+      /* margin: 20px; */
+  }
+
+
+    nav .logo{
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+    nav .links{
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        background-color: rgba(0,0,0,.8);
+        overflow: hidden;
+    }
+
+    nav .links a{
+        font-size:20px;
+        background-color: rgba(0,0,0,.01);
+    }
+
+    nav .icon-burger{
+        display: block;
+    }
+
+    nav :checked ~ .links{
+        bottom: 0;
+    }
+    .check{
+        display: none;
+    }
+
+
+    nav .icon-burger .line{
+        /* width: 30px;
+        height: 5px; */
+        background-color: white;
+        /* margin: 5px;
+        border-radius: 3px; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* first section starts here */
 /* .first_section{
     height: 500px;
@@ -54,6 +186,7 @@ nav .links a{
     /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); */
     /* clip-path: polygon(50% 0%, 100% 0, 100% 5%, 100% 85%, 65% 100%, 31% 88%, 0 100%, 0% 70%, 0% 35%, 0 0); */
  */
+ 
 
 #column_1{
     padding: 40px;
@@ -65,8 +198,8 @@ nav .links a{
 
 #top_column{
     position: relative;
-    width: 1260px;
-    height: 500px;
+    width: 100vw;
+    height: 550px;
 }
 
 .archi{
@@ -100,6 +233,29 @@ nav .links a{
 }
 
 
+.imageee{
+    display: none;
+}
+
+.new{
+    display: none;
+}
+
+.purple2{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #7861F3, #533DD0, #331CB2);
+    margin-left: 200px;
+}
+.big{
+    display: none;
+}
+
+.purple{
+    display: none;
+}
 /* second section starts here */
 .second_section{
     display: flex;
@@ -111,7 +267,6 @@ nav .links a{
     flex-direction: row;
     justify-content: center;
 }
-oD
 
 
 #textss{
@@ -162,7 +317,7 @@ oD
     display: flex;
     width: 300px;
     height: 200px;
-    border: 1px solid grey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 50px;
     border-radius: 10px;
     flex-direction: column;
@@ -455,7 +610,7 @@ oD
 #sixth_section{
     background-color: black;
     width: 100%;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     padding: 55px;
@@ -463,6 +618,9 @@ oD
     color: white;
 }
 
+#services{
+    gap: 10px;
+}
 #roguetechdev{
     width: 150px;
     height: 90%;
@@ -473,14 +631,17 @@ oD
 #contactus{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 #phone{
     width: 350px;
     height: 90%;
+    gap: 10px;
 }
 #contact{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 #socials2{
@@ -504,6 +665,28 @@ oD
     border: none;
 }
 
+.send{
+    height: 50px;
+    width: 200px;
+}
+
+.sun{
+    margin-left: 20px;
+}
+
+#seven{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+.fa-copyright{
+    color: white;
+    font-size: 20px;
+}
 
 /* svg{
     height: 400px;
@@ -514,31 +697,65 @@ oD
 } */
 
 
+/* seventh sec */
+
+
+
 
 
 
 
 
 @media (max-width: 450px){
-
-
+    *{
+        box-sizing: border-box;
+    }
 
     .container{
-        width: 100%;
+        max-width: 500px;
+    }
+    body{
+        overflow-x: hidden;
     }
 
-    nav{
+    /* nav{
         display: none;
-    }
+    } */
 
     .side{
         display: flex;
         flex-direction: row-reverse;
+        margin-left: 20px;
+        right: 0;
+        display: none;
+        
+    }
+
+    .new{
+        display: flex;
+        position: relative;
+        margin-top:100px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("images/Vector_2.png");
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        width: 100%;
+        height: 600px;
+        padding: 42px 0;
+        /* background-attachment: fixed; */
+        background-position: top;
+        text-align: center;
+        color: #f2f2f2;
+      }
+
+    .help{
         
     }
     #working{
         width: 100px;
         height: 100px;
+        display: none;
     }
 
     .tech{
@@ -547,67 +764,128 @@ oD
 
 
     #top_column{
-        width: 800px;
-        height: 100px;
+        width: 100%;
+        height: 200px;
     }
 
-    .archi{
-        position: absolute;
-        top: 0;
-        width: 50%;
-        height: 90%;
-        padding: 40px;
-        color: white;
+    .imageee{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: 60px;
+    }
+
+    .purple{
+        display: block;
+        margin-left: 120px;
+        margin-top: 30px;
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background: linear-gradient(to bottom, #7861F3, #533DD0, #331CB2);
+    }
+
+    .big{
+        display: flex;
+        width: 300px;
+        height: 200px;
+    }
+
+    .inno{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    #digital{
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .excel{
+        text-align: left;
+        font-size: 20px;
+
+    }
+    .rogue{
+        position: relative;
+        top: 70px;
+        padding: 15px;
     }
 
     #architect{
-        font-size: 50px;
-        column-gap: purple;
+        /* font-size: 50px;
+        column-gap: purple; */
+        display: none;
+        font-size: 20px;
+        width: 100px;
     }
     
-    .archi{
-        position: absolute;
-        top: 0;
-        width: 20%;
-        height: 20%;
-        color: white;
+
+    .archi_text{
+        display: none;
     }
-
-
 
 
 
     .columns{
         display: flex;
-        width: 300px;
+        width: 250px;
         height: 200px;
         border: 1px solid grey;
         margin: 50px;
         border-radius: 10px;
+        padding: 5px;
     }
 
     .column_container{
         flex-direction: column;
+        margin-left: 30px;
     }
 
     .columncontwo{
         flex-direction: column;
+        margin-left: 30px;
+    }
+
+
+
+    .time{
+        position: relative;
+        top: 20px;
+        padding: 10px;
+    }
+    .why{
+        margin-bottom: 20px;
+    }
+
+    #thirdsec{
+        height: 1000px;
+        margin-bottom: 0;
     }
 
 
 
 
-    #thirdsec{
-        height: 900px;
+    .seccir{
+        position: relative;
+        top: 10px;
+        width: 100px;
     }
 
     .t1{
         display: flex;
         flex-direction: column;
+        position: relative;
+        margin-left: 20px;
     }
 
     .c1{
         width: 350px;
+        height: 130px;
+        margin: 10px;
     }
 
 
@@ -620,14 +898,31 @@ oD
 
     
 
+    #textss{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+        position: relative;
+        right: 20px;
+    }
+    
+    .text{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 10px;
+        margin-left: 35px;
+    }
 
     .numbers{
         gap: 15px;
     }
 
     .purp{
-        height: 30px;
-        width: 30px;
+        height: 50px;
+        width: 100px;
     }
 
 
@@ -691,10 +986,17 @@ oD
 
 
       #fouth_section{
-        height: 900px;
+        height: 500px;
     }
+
     #fourthsec{
-        height: 700px;
+        position: relative;
+        bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 80%;
+        background-color: white
     }
     
 
@@ -709,12 +1011,14 @@ oD
     }
 
     #schedule_button{
-        width: 100px;
+        width: 150px;
         height: 30px;
-        font-size: 5px;
+        font-size: 8px;
         margin-left: 150px;
-        border-radius: 10px;
         border: none;
+        display: block;
+        border-radius: 8px;
+        background: linear-gradient(to bottom, #7861F3, #533DD0, #331CB2);
     }
 
 
@@ -736,9 +1040,16 @@ oD
 
     #sixth_section{
         width: 100%;
-        height: 700px;
+        height: 900px;
         display: flex;
         flex-direction: column;
+    }
+
+    #roguetechdev{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        top: 30px;
     }
 
     #contact{
@@ -749,9 +1060,45 @@ oD
     #phone{
         display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
     }
     
     .cu{
         text-align: left;
     }
+
+
+
+
+    .sun{
+        margin-left: 0px;
+    }
+    
+    #seven{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        justify-content: center;
+    }
+    
+    .fa-copyright{
+        color: white;
+        font-size: 20px;
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
