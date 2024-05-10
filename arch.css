@@ -241,13 +241,16 @@ nav .icon-burger .line{
     display: none;
 }
 
+.ppp{
+    display: flex;
+    justify-content: center;
+}
 .purple2{
     height: 50px;
     width: 150px;
     border: none;
     border-radius: 10px;
     background: linear-gradient(to bottom, #7861F3, #533DD0, #331CB2);
-    margin-left: 200px;
 }
 .big{
     display: none;
@@ -489,6 +492,11 @@ nav .icon-burger .line{
     background-color: white
 }
 
+.david{
+    position: relative;
+    bottom: 15px;
+}
+
 .numbers{
     display: flex;
     gap: 100px;
@@ -599,11 +607,16 @@ nav .icon-burger .line{
     width: 200px;
     height: 50px;
     font-size: 15px;
-    margin-left: 500px;
     border-radius: 10px;
     border: none;
+    background: linear-gradient(to bottom, #7861F3, #533DD0, #331CB2);
 }
 
+.bbb{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
 
 
 /* sixth section starts header */
@@ -668,6 +681,10 @@ nav .icon-burger .line{
 .send{
     height: 50px;
     width: 200px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #7861F3, #533DD0, #331CB2);
+    margin-top: 10px;
 }
 
 .sun{
@@ -687,6 +704,8 @@ nav .icon-burger .line{
     color: white;
     font-size: 20px;
 }
+
+
 
 /* svg{
     height: 400px;
@@ -794,6 +813,11 @@ nav .icon-burger .line{
         height: 200px;
     }
 
+
+    .david{
+        position: relative;
+        bottom: 0;
+    }
     .inno{
         text-align: center;
         text-decoration: underline;
@@ -854,7 +878,7 @@ nav .icon-burger .line{
 
     .time{
         position: relative;
-        top: 20px;
+        top: 10px;
         padding: 10px;
     }
     .why{
@@ -869,6 +893,10 @@ nav .icon-burger .line{
 
 
 
+    .circle{
+        width: 90px;
+        height: 100px;
+    }
     .seccir{
         position: relative;
         top: 10px;
@@ -965,18 +993,18 @@ nav .icon-burger .line{
         font-size: 10px;
       }
       .sc0{
-        left: 250px;
+        left: 243px;
         top: 30px;
       }
     
       .sc1{
-        left: 250px;
-        top: 170px;
+        left: 243px;
+        top: 175px;
       }
     
       .sc2{
-        left: 250px;
-        top: 330px;
+        left: 244px;
+        top: 325px;
       }
 
       .fa-quote-left{
@@ -1014,7 +1042,6 @@ nav .icon-burger .line{
         width: 150px;
         height: 30px;
         font-size: 8px;
-        margin-left: 150px;
         border: none;
         display: block;
         border-radius: 8px;
