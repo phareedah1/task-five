@@ -938,11 +938,7 @@ nav .icon-burger .line{
     
     .text{
         font-size: 15px;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        left: 10px;
-        margin-left: 35px;
+        text-align: center;
     }
 
     .numbers{
@@ -1024,7 +1020,7 @@ nav .icon-burger .line{
         display: flex;
         flex-direction: column;
         height: 500px;
-        width: 80%;
+        width: 100%;
         background-color: white
     }
     
@@ -1402,11 +1398,7 @@ nav .icon-burger .line{
     
     .text{
         font-size: 15px;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        left: 10px;
-        margin-left: 35px;
+        text-align: center;
     }
 
     .numbers{
@@ -1492,7 +1484,7 @@ nav .icon-burger .line{
         display: flex;
         flex-direction: column;
         height: 500px;
-        width: 80%;
+        width: 100%;
         background-color: white
     }
     
@@ -1859,12 +1851,8 @@ nav .icon-burger .line{
     }
     
     .text{
-        font-size: 155px;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        left: 10px;
-        margin-left: 35px;
+        font-size: 15px;
+        text-align: center;
     }
 
     .numbers{
@@ -1946,7 +1934,7 @@ nav .icon-burger .line{
         display: flex;
         flex-direction: column;
         height: 500px;
-        width: 80%;
+        width: 100%;
         background-color: white
     }
     
@@ -2348,11 +2336,7 @@ nav .icon-burger .line{
     
     .text{
         font-size: 15px;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        left: 10px;
-        margin-left: 35px;
+        text-align: center;
     }
 
     .numbers{
@@ -2434,7 +2418,7 @@ nav .icon-burger .line{
         display: flex;
         flex-direction: column;
         height: 500px;
-        width: 80%;
+        width: 100%;
         background-color: white
     }
     
