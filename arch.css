@@ -866,13 +866,13 @@ nav .icon-burger .line{
     }
 
     .column_container{
-        flex-direction: column;
-        margin-left: 30px;
+        display: flex;
+        justify-content: center;
     }
 
     .columncontwo{
-        flex-direction: column;
-        margin-left: 30px;
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -907,8 +907,8 @@ nav .icon-burger .line{
     .t1{
         display: flex;
         flex-direction: column;
-        position: relative;
-        margin-left: 20px;
+        position: block;
+        justify-content: center;
     }
 
     .c1{
@@ -961,7 +961,7 @@ nav .icon-burger .line{
         justify-content: center;
         flex-direction: column;
         gap: 50px;
-        left: 50px;
+        /* left: 50px; */
       }
       
     .rectangle {
