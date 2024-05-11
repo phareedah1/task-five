@@ -866,13 +866,13 @@ nav .icon-burger .line{
     }
 
     .column_container{
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
+        margin-left: 30px;
     }
 
     .columncontwo{
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
+        margin-left: 30px;
     }
 
 
@@ -907,8 +907,8 @@ nav .icon-burger .line{
     .t1{
         display: flex;
         flex-direction: column;
-        position: block;
-        justify-content: center;
+        position: relative;
+        margin-left: 20px;
     }
 
     .c1{
@@ -961,7 +961,7 @@ nav .icon-burger .line{
         justify-content: center;
         flex-direction: column;
         gap: 50px;
-        /* left: 50px; */
+        left: 50px;
       }
       
     .rectangle {
@@ -1860,6 +1860,494 @@ nav .icon-burger .line{
     
     .text{
         font-size: 155px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 10px;
+        margin-left: 35px;
+    }
+
+    .numbers{
+        gap: 15px;
+    }
+
+    .purp{
+        height: 50px;
+        width: 100px;
+    }
+
+
+    .box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        left: 50px;
+      }
+      
+    .rectangle {
+        position: relative;
+        top: 50px;
+        height:100px;
+        width: 300px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        padding: 15px;
+      }
+      
+    .semicircle {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 100px 100px 0 0;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px -10px 10px -5px rgba(0, 0, 0, 0.5);
+      }
+
+      .review{
+        margin-bottom: 0px;
+        font-size: 10px;
+      }
+      .sc0{
+        left: 243px;
+        top: 30px;
+      }
+    
+      .sc1{
+        left: 243px;
+        top: 175px;
+      }
+    
+      .sc2{
+        left: 244px;
+        top: 325px;
+      }
+
+      .fa-quote-left{
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+
+
+      #fouth_section{
+        height: 500px;
+    }
+
+    #fourthsec{
+        position: relative;
+        bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 80%;
+        background-color: white
+    }
+    
+
+
+
+
+
+
+
+    #fs_text{
+        font-size: 20px;
+    }
+
+    #schedule_button{
+        width: 150px;
+        height: 30px;
+        font-size: 8px;
+        border: none;
+        display: block;
+        border-radius: 8px;
+        background: linear-gradient(to bottom, #7861F3, #533DD0, #331CB2);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #sixth_section{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #roguetechdev{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        top: 30px;
+    }
+
+    #contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #phone{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    
+    .cu{
+        text-align: left;
+    }
+
+
+
+
+    .sun{
+        margin-left: 0px;
+    }
+    
+    #seven{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        justify-content: center;
+    }
+    
+    .fa-copyright{
+        color: white;
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 460px) and (min-width: 390px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .container{
+        max-width: 500px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    /* nav{
+        display: none;
+    } */
+
+    .side{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 20px;
+        right: 0;
+        display: none;
+        
+    }
+
+    .new{
+        display: flex;
+        position: relative;
+        margin-top:100px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("images/Vector_2.png");
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        width: 100%;
+        height: 600px;
+        padding: 42px 0;
+        /* background-attachment: fixed; */
+        background-position: top;
+        text-align: center;
+        color: #f2f2f2;
+      }
+
+    .help{
+        
+    }
+    #working{
+        width: 100px;
+        height: 100px;
+        display: none;
+    }
+
+    .tech{
+        font-size: 10px;
+    }
+
+
+    #top_column{
+        width: 100%;
+        height: 200px;
+    }
+
+    .imageee{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: 60px;
+    }
+
+    .purple{
+        display: block;
+        margin-left: 120px;
+        margin-top: 30px;
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background: linear-gradient(to bottom, #7861F3, #533DD0, #331CB2);
+    }
+
+    .big{
+        display: flex;
+        width: 300px;
+        height: 200px;
+    }
+
+
+    .david{
+        position: relative;
+        bottom: 0;
+    }
+    .inno{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    #digital{
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .excel{
+        text-align: left;
+        font-size: 20px;
+
+    }
+    .rogue{
+        position: relative;
+        top: 70px;
+        padding: 15px;
+    }
+
+    #architect{
+        /* font-size: 50px;
+        column-gap: purple; */
+        display: none;
+        font-size: 20px;
+        width: 100px;
+    }
+    
+
+    .archi_text{
+        display: none;
+    }
+
+
+
+    .columns{
+        display: flex;
+        width: 250px;
+        height: 200px;
+        border: 1px solid grey;
+        margin: 50px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .column_container{
+        flex-direction: column;
+        margin-left: 55px;
+    }
+
+    .columncontwo{
+        flex-direction: column;
+        margin-left: 55px;
+    }
+
+
+
+    .time{
+        position: relative;
+        top: 10px;
+        padding: 10px;
+    }
+    .why{
+        margin-bottom: 20px;
+    }
+
+    #thirdsec{
+        height: 1000px;
+        margin-bottom: 0;
+    }
+
+
+
+
+    .circle{
+        width: 90px;
+        height: 100px;
+    }
+    .seccir{
+        position: relative;
+        top: 10px;
+        width: 100px;
+    }
+
+    .t1{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    .c1{
+        width: 350px;
+        height: 130px;
+        margin: 10px;
+    }
+
+
+
+
+
+
+
+
+
+    
+
+    #textss{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+        position: relative;
+        right: 20px;
+    }
+    
+    .text{
+        font-size: 15px;
         display: flex;
         justify-content: center;
         position: relative;
